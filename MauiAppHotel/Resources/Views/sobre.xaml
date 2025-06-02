@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.sobre"
+             Title="dev"
+             BackgroundImageSource="fundo.jpg">
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                         Padding="10"                         >
+
+        <Label Text="SOBRE"
+               HorizontalTextAlignment="Center"
+               FontSize="30"
+               Padding="10"
+               FontFamily="Brunson"
+               TextColor="#fff">
+        </Label>
+
+       
+        <Frame Margin="10"
+               BackgroundColor="#890405"
+               BorderColor="#890405">
+            <HorizontalStackLayout>
+                <Label Text="Desenvolvido por: Leomara Sousa, em 2025. "/>
+                            </HorizontalStackLayout>
+        </Frame>
+
+
+        <Button Text="Voltar" 
+                Margin="10"
+                Padding="10"
+        Clicked="Button_Clicked"
+        BackgroundColor="#890405"
+                TextColor="#fff"
+                HorizontalOptions="Center"/>
+
+    </VerticalStackLayout>
+</ContentPage>
